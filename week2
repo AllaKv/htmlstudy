@@ -54,16 +54,21 @@
             </div>
             <br/>
             <div>
-                <label for="sex"><b>Пол</b></label> &nbsp;&nbsp;
-                Самец<input type="radio" id="sex" name="sex"/> &nbsp;
-                Самка<input type="radio" id="sex" name="sex"/> 
+                <b>Пол</b> &nbsp;&nbsp;
+                <input type="radio" name="sex" value="male" id="man" />
+                <label for="man">Самец</label> 
+                <input type="radio" name="sex" value="female" id="woman" />
+                <label for="woman">Самка</label> 
             </div> 
             <br/>
             <div>
-                <label for="food"><b>Чем питается (корм)</b></label> <br/>
-                <input type="checkbox" name="food" value="1"/> Сухой <br/>
-                <input type="checkbox" name="food" value="2"/> Влажный <br/>
-                <input type="checkbox" name="food" value="3"/> Натуральный
+                <b>Чем питается (корм)</b><br/>
+                <input type="checkbox" name="food" value="1" id="1"/> 
+                <label for="1">Сухой</label> 
+                <input type="checkbox" name="food" value="2" id="2"/> 
+                <label for="2">Влажный</label> 
+                <input type="checkbox" name="food" value="3" id="3"/>
+                <label for="3">Натуральный</label> 
             </div>
             <br/>
             <div>

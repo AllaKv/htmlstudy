@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Blog</title>
+</head>
+<body>
+    <header>
+<h1>All types of code</h1>
+    </header>
+    <nav>
+        <a href="/lownowcode.html">LowCode</a> |  
+        <a href="/highcode.html">HighCode</a> |              
+    </nav>
+    <main>
+        <article>
+        <h2>HIGH CODE VS. LOW CODE VS. NO CODE</h2>
+        Today there are a lot of code types: low, no, high, less, zero, self... <br/>
+        Whats the difference? <br/>
+        Whitch to choose? <br/>
+        And why choose just one?
+            <section>
+            <h3>Classic code: high</h3>
+           <p> High-code assembly relies on developers to write and deploy code. This assembly model is ideal for applications where the code should be coupled to the experience itself. Developers will often rely on JavaScript frameworks like React or Angular or frameworks specifically designed for mobile or native applications. Content and data is typically provided via a headless CMS or other API-based services. <br/><br/>
+               This approach is ideal for a “code-driven” experience tightly tied to code deployment cycles. Content and data can be managed and updated from remote systems on demand, but developers control the actual experience and interface. <br/><br/>
+               However, with a high-code approach alone, businesses are heavily reliant on developer resources. When everything requires a developer’s hand, it takes time away from the more valuable work they could be doing, such as creating new features and innovations. </p>
+            </section>
+            <section>
+            <h3>Modern code: low, zero, no, less...</h3>
+            <p>Using low code tools, developers focus on building a composable platform and providing self-service tools that allow business users to control the assembly of the experience. They can also create powerful components that can be reused for other applications.
+            <br/><br/>The primary benefits of low-code solutions are speed and collaboration. Low-code solutions generally leverage pre-built components, design systems, and functionalities that can be rearranged and repurposed to shape different experiences. 
+            <br/><br/>Low code means that both marketers and developers play a vital role in the process. Developers build the components, and marketers can then assemble those components into relevant customer experiences. This collaboration can speed up time-to-market and result in greater overall customer satisfaction for the business because marketers can directly translate their insights into actions. 
+            <br/><br/>Traditionally, developers have been reluctant to embrace low-code/no-code due to concerns about functionality and security, but there are ways to build governance and regulations into the types of components and systems being applied. </p>
+             </section>
+        </article>
+
+        
+    </main>
+
+    <footer>
+        <i>Powered by panda</i><br/>
+        <img src="S2.png" alt="Redfox" height="120" width="140">
+    </footer>
+    
+</body>
+</html>

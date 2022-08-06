@@ -60,10 +60,10 @@
             </div> 
             <br/>
             <div>
-                <label for="food"><b>Чем питается</b></label> &nbsp;&nbsp;
-                <input type="checkbox" name="food" value="Сухой корм"/>
-                <input type="checkbox" name="food" value="Влажный корм"/>
-                <input type="checkbox" name="food" value="Натуральный корм"/>
+                <label for="food"><b>Чем питается (корм)</b></label> <br/>
+                <input type="checkbox" name="food" value="1"/> Сухой <br/>
+                <input type="checkbox" name="food" value="2"/> Влажный <br/>
+                <input type="checkbox" name="food" value="3"/> Натуральный
             </div>
             <br/>
             <div>
@@ -77,7 +77,7 @@
             </div>
 
         </fieldset>      
-         
+
    <div><button>Submit</button></div>
 
     </form>

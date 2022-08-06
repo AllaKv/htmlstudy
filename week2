@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <header><h1> Hometask with forms</h1></header>
+   <main><h2>Tell us more about your lovely cats</h2>
+    <form>
+        <fieldset>
+            <legend>Расскажите о себе</legend>
+            <div>
+                <label for="name"><b>Ваше имя</b></label>
+                <input type="text" id="name"/>
+            </div>
+            <br/>
+            <div>
+                <label for="phone"><b>Как с Вами связаться</b></label>
+                <input type="tel" id="phone"/>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>..и о своем питомце</legend>
+            <div>
+                <label for="catname"><b>Кличка</b></label>
+                <input type="text" id="catname"/>
+            </div> 
+            <br/>
+            <div>
+                <label for="cattypeselect"><b>Порода</b></label>
+                <select id="cattypeselect">
+                    <option value="1">Без породы (домашняя кошка)</option>
+                    <option value="2">Абиссинская</option>
+                    <option value="3">Британская</option>
+                    <option value="4">Донской сфинкс</option>
+                    <option value="5">Мейн-кун</option>
+                    <option value="6">Персидская</option>
+                    <option value="7">Сиамская</option>
+                    <option value="8">Сибирская (невская маскарадная)</option>
+                    <option value="9">Шотландская кошка (вислоухая)</option>
+                    <option value="10">Шотландская кошка (прямоухая)</option>
+                    <option value="11">Канадский сфинкс</option>
+                    <option value="12">Тайская</option>
+                    <option value="13">Другая</option>
+                </select>
+            </div>
+            <br/>
+            <div>
+                <label for="cattype">укажите свою, если выбрали "Другая"</label>
+                <input type="text" id="cattype"/>
+            </div>
+            <br/>
+            <div>
+                <label for="sex"><b>Пол</b></label> &nbsp;&nbsp;
+                Самец<input type="radio" id="sex" name="sex"/> &nbsp;
+                Самка<input type="radio" id="sex" name="sex"/> 
+            </div> 
+            <br/>
+            <div>
+                <label for="food"><b>Чем питается</b></label> &nbsp;&nbsp;
+                <input type="checkbox" name="food" value="Сухой корм"/>
+                <input type="checkbox" name="food" value="Влажный корм"/>
+                <input type="checkbox" name="food" value="Натуральный корм"/>
+            </div>
+            <br/>
+            <div>
+                <label for="subscr"><b>Ваш комментарий</b></label>
+                <textarea rows="5" id="subscr">Расскажите о Вашем друге (что он/она любит, характер, и т.д....)</textarea>
+            </div>
+            <br/>
+            <div>
+                <label for="photo"><b>Загрузите фото питомца</b></label> 
+                <input type="file" id="photo"/> 
+            </div>
+
+        </fieldset>      
+         
+   <div><button>Submit</button></div>
+
+    </form>
+   </main>
+   <address>Powered by me</address>
+</body>
+</html>

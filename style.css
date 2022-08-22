@@ -1,0 +1,360 @@
+/* Desktop - описание общей рамки страницы */
+.desktop {
+    position: relative;
+    width: 1440px;
+    height: 6891px;
+
+    background: #FFFFFF;
+    
+}
+
+.logo {
+    position: absolute;
+    height: 54px;
+    left: -0.01%;
+    right: 87.16%;
+    top: calc(50% - 54px/2 + 0.25px);
+
+    background: url();
+    border-radius: 0px;
+    
+}
+
+/* Rectangle - общий прямоугольник шапки*/
+.frame1 {
+    position: absolute;
+    height: 82px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+    background-color: rgba(12, 13, 46, 0.9);
+    border-radius: 0px
+}
+
+/* Frame 2*/
+.frame2 {
+    position: absolute;
+width: 1353.62px;
+height: 53.5px;
+left: calc(50% - 1353.62px/2);
+top: calc(50% - 53.5px/2 - 0.25px);
+}
+
+/* Frame 3 */
+.frame3 {
+    position: absolute;
+height: 48px;
+left: 55.23%;
+right: 0%;
+top: calc(50% - 48px/2);
+}
+
+/* Frame 4*/
+.frame4 {
+    position: absolute;
+height: 48px;
+left: 72.97%;
+right: -0.03%;
+top: calc(50% - 48px/2 + 0.25px);
+}
+
+
+.menu {
+    position: absolute;
+    height: 20px; 
+
+    top: calc(50% - 20px/2 - 0.75px);
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+
+    color: #FFFFFF;
+    
+}
+
+
+/* Benefits ссылка в меню*/
+.benefits {
+    left: 2.01%;
+    right: 87.59%;
+    margin-right: 24px;
+}
+
+
+/* Features ссылка в меню*/
+.features {
+    left: 16.37%;
+    right: 72.58%;
+    margin-right: 24px;
+}
+
+
+/* Reviews ссылка в меню*/
+.reviews {
+    left: 31.38%;
+    right: 58.38%;
+    margin-right: 24px;
+}
+
+
+/* Pricing ссылка в меню*/
+.pricing {
+    left: 45.58%;
+    right: 45.68%; 
+    margin-right: 24px;
+}
+
+
+/* Contact ссылка в меню*/
+.contact {
+    left: 58.28%;
+    right: 31.65%;
+    color: #189CE8;
+    margin-right: 28px;
+}
+
+
+/* Rectangle ByeCrippy обводное в кнопке*/
+.RectangleByeCrippy {
+    box-sizing: border-box;
+    
+    position: absolute;
+    height: 48px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 100px;
+}
+
+
+
+/* Text Buy CrypAppy */
+.textBuyCrypAppy {
+    position: absolute;
+    height: 16px;
+    left: 19.51%;
+    top: calc(50% - 16px/2 - 1px);
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    color: #FFFFFF;
+}
+
+/* body first Frame */
+.bodyfirstframe {
+    position: absolute;
+height: 720px;
+left: 0%;
+right: 0%;
+top: 82px;
+background: #010225;
+border-radius: 0px;
+}
+
+/* IMAGE */
+.phoneimage1 {
+    position: absolute;
+height: 993px;
+left: 51.53%;
+right: -17.63%;
+top: calc(50% - 993px/2 + 125.5px);
+
+background: url(.png);
+border-radius: 0px;
+}
+
+
+/* body second Frame */
+.bodysecframe {
+    position: absolute;
+height: 744px;
+left: 0%;
+right: 0%;
+top: 720px;
+background: #0C0D2E;
+border-radius: 0px;
+}
+
+/* bodythirdframe Frame */
+.bodythirdframe {
+    position: absolute;
+height: 1247px;
+left: 0%;
+right: 0%;
+top: 1464px;
+background: #0C0D2E;
+border-radius: 0px;
+}
+
+/* Rectangle */
+.rectangle {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    left: calc(50% - 800px/2 - 647px);
+    top: calc(50% - 800px/2 - 581.5px);
+    
+    border: 180px solid rgba(33, 34, 80, 0.4);
+}
+
+
+/* phone vert IMAGE */
+.vertphone {
+    position: absolute;
+height: 679px;
+left: 36.35%;
+right: 36.43%;
+top: 0px;
+
+background: url(.png);
+border-radius: 0px;
+}
+
+/* content Frame */
+.contentframe {
+    position: absolute;
+width: 1267.22px;
+height: 522px;
+left: calc(50% - 1267.22px/2);
+top: calc(50% - 522px/2 + 0.23px);
+}
+
+/* textFrame */
+.textframe {
+    position: absolute;
+height: 502px;
+left: 0%;
+right: 50%;
+top: 20px;
+}
+
+/* Manage your money from anywhere */
+.textmanage {
+    position: absolute;
+height: 108px;
+left: -0.06%;
+right: 28.09%;
+top: 47.77px;
+
+font-family: 'League Spartan';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 54px;
+/* or 135% */
+
+color: #FFFFFF;
+}
+
+/* phoneFrame */
+.phoneframe {
+    position: absolute;
+height: 701.39px;
+left: 50%;
+right: -6.82%;
+top: -52px;
+}
+
+.phonethree {
+    position: absolute;
+    height: 673px;
+    left: 0%;
+    right: 50%;
+    top: -0.23px;
+    
+    background: url(.png);
+    border-radius: 0px;
+}
+
+.phonefour {
+    position: absolute;
+    height: 701px;
+    left: 50%;
+    right: 0%;
+    top: -0.23px;
+    
+    background: url(.png);
+    border-radius: 0px;
+}
+
+
+
+/* bodyfourframeFrame */
+.bodyfourframe {
+    position: absolute;
+    height: 842px;
+    left: 0%;
+    right: 0%;
+    top: 2711px; 
+    background: #010225;
+border-radius: 0px; 
+}
+
+/* bodyfiveframeFrame */
+.bodyfiveframe {
+    position: absolute;
+    height: 1086px;
+    left: 0%;
+    right: 0%;
+    top: 3553px;
+    background: #010225;
+border-radius: 0px; 
+}
+
+/* bodysixframe Frame */
+.bodysixframe {
+    position: absolute;
+height: 1669px;
+left: 0%;
+right: 0%;
+top: 4639px;
+background: #010225;
+border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer Frame */
+.footerframe {
+    position: absolute;
+height: 583px;
+left: 0%;
+right: 0%;
+top: 6308px;
+
+background: #0C0D2E;
+border-radius: 0px;
+}
+
+/* footer IMAGE */
+.footerimage {
+    position: absolute;
+width: 174px;
+height: 54px;
+left: calc(50% - 174px/2);
+top: calc(50% - 54px/2 - 173.23px);
+
+background: url(.png);
+border-radius: 0px;
+}

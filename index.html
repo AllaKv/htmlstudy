@@ -4,63 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CrypAppy</title>
-    <link rel="stylesheet" href="style/style.css">
+    <title>Lessen 5</title>
+    <style>
+        .headerflexcontainer {
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            align-items: center;
+            border: 1px solid blue;
+            height: 100px;
+            text-align: center;
+        }
+
+        .headersection{
+            border: 1px solid black;
+            margin: auto; /*центрирует по горизонтали и вертикали*/
+            text-align: center;
+        }
+/*------------------------------------------------------*/
+        .flexfooter{
+            clear: both;
+            display: flex;
+            justify-content: space-around; /*задает равные расстояния между элементами*/
+            margin: 0;
+            align-items: center;
+            border: 1px solid blue;
+            height: 100px;
+        }
+
+        .footersection{
+            border: 1px solid black;
+            margin: auto; /*центрирует по горизонтали и вертикали*/
+            text-align: center;
+        }
+/*------------------------------------------------------*/
+        .mainflexcontainer{
+            display: flex;
+            border: 1px solid blue;
+            margin: 0;
+            align-items: center;
+            
+        }
+
+        section {
+            position: relative;
+            border: 1px solid red;
+            margin: auto;
+            text-align: center;
+        }
+
+        .subsection{
+            border: 1px solid black;
+            margin: auto; /*центрирует по горизонтали и вертикали*/
+            text-align: center; 
+        }
+
+
+    </style>
 </head>
 <body>
-    <main class="desktop">
-    <header>
-        <div class="frame1">
-            <div class="frame2">
-                <img class="logo" src="assets/images/logo.png" alt="logo">
-                <div class="frame3">
-                    <nav class="menu">
-                            <a class="benefits" href="">Benefits</a>   
-                            <a class="features" href="">Features</a>
-                            <a class="reviews" href="">Reviews</a>
-                            <a class="pricing" href="">Pricing</a>
-                            <a class="contact" href="">Contact</a>
-                    </nav>
-                    <div class="frame4">
-                        <div class="RectangleByeCrippy">
-                            <span class="textBuyCrypAppy">Buy CrypAppy</span> 
-                        </div>
-                    </div>    
-                </div>
-            </div>
-        </div>
+    <h1>Lessen 5: Table</h1>
+
+    <header class="headerflexcontainer">
+        <section class='headersection'><h2>[Шапка страницы]</h2></section>
     </header>
-    <section class="bodyfirstframe">
-        <img class="phoneimage1" src="assets/images/phone.png" alt="phone">
-    </section>
-    <section class="bodysecframe">
-    </section>
-    <section class="bodythirdframe">
-        <img class="rectangle" src="assets/images/Rectangle (1).png" alt="rectangle">
-        <img class="vertphone" src="assets/images/phine2vert.png" alt="phone vertical">
-    </section>
-    <section class="bodyfourframe">
-        <div class="contentframe">
-            <div class="textframe">
-                <span class="textmanage">Manage your money from anywhere</span>
-            </div>
-            <div class="phoneframe">
-                <img class="phonethree" src="assets/images/phone3.png" alt="2 vertical phone">
-                <img class="phonefour" src="assets/images/phone4.png" alt="3 vertical phone">
-            </div>
-        </div>
-    </section>
-    <section class="bodyfiveframe">
 
-    </section>
-    <section class="bodysixframe">
+        <main class="mainflexcontainer">
+            <section><h2>[Основная часть]</h2>
+                <section class="subsection"><h2>[Еще 1]</h2></section>
+                <section class="subsection"><h2>[Еще 2]</h2></section>
+                <section class="subsection"><h2>[Еще 3]</h2></section>
+            </section>
+            <section><h2>[Боковая часть]</h2></section>
+        </main>
 
-    </section>
-
-    <footer class="footerframe">
-        <img class="footerimage" src="assets/images/logo.png" alt="footerlogo">
+    <footer class="flexfooter">
+       <section class="footersection"><h2>[Секция футера 1]</h2></section>
+       <section class="footersection"><h2>[Секция футера 2]</h2></section>
+       <section class="footersection"><h2>[Секция футера 3]</h2></section>
+       <section class="footersection"><h2>[Секция футера 4]</h2></section>   
     </footer>
 
-    </main>
 </body>
 </html>

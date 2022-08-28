@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lessen 5</title>
+    <style>      
+        /* flex-контейнер */
+        .flexcontainer{
+            clear: both;
+            display: flex;
+            flex-wrap: wrap;
+           justify-content: space-around; /*задает равные расстояния между элементами*/
+            margin: 0;
+            align-items: center;
+            border: 1px solid blue;
+            height: 100px;
+        }
+
+        .footersection{
+            border: 1px solid black;
+            margin: auto; /*центрирует по горизонтали и вертикали*/
+            text-align: center;
+        }
+        .headersection{
+            border: 1px solid black;
+            margin: auto; /*центрирует по горизонтали и вертикали*/
+            text-align: center;
+        }
+        .content {
+            background: #DCDCDC;
+            float: left;
+            width: 80%;
+        }
+        .sidebar {
+            background: #40E0D0;
+            float: right;
+            width: 20%;
+        }
+      </style>
+      
+      <header class="flexcontainer">
+        <section class='headersection'><h2>[Шапка страницы]</h2></section>
+      </header>
+      <main class="flexcontainer">
+        <section>
+          <section class="content">
+            <h2>[Основная часть]</h2>
+          </section>
+          <section class="sidebar">
+            <h2>[Боковая область]</h2>
+          </section>
+        </section>
+      </main>
+      
+      <footer class="flexcontainer">
+        <section class="footersection"><h2>[Секция футера 1]</h2></section>
+        <section class="footersection"><h2>[Секция футера 2]</h2></section>
+        <section class="footersection"><h2>[Секция футера 3]</h2></section>
+        <section class="footersection"><h2>[Секция футера 4]</h2></section>   
+     </footer>
+
+</body>
+</html>
